@@ -1,0 +1,84 @@
+.print-area {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.print-area .header {
+  float: left;
+  width: 260px;
+  height: 830px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+
+.header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.header-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 15px;
+  background-color: #c0ff8d;
+  border-radius: 8px;
+}
+
+.left-area {
+  text-align: left;  
+}
+
+.left-area-title
+{
+  font-size: 20px;
+  font-family: 'Handlee', cursive;
+}
+
+.left-area-text p{
+  margin-top: -10px;
+}
+
+.right-area {
+  float: left;
+  padding: 60px;
+  width: 500px;
+  background-color: #ff8dcc;
+  height: 750px;
+}
+
+.right-area-title
+{
+  font-size: 20px;
+  font-family: 'Handlee', cursive;
+}
+
+.right-area-text p{
+  margin-top: -10px;
+}
+
+.feet-area{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.button {
+  font-family: 'Dancing Script', cursive;
+  font-size: 15px;
+  background-color: #c0ff8d;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #79c73a;
+}
+
+@media print {
+  body * {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+}
